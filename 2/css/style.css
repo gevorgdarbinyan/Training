@@ -1,0 +1,20 @@
+#container {
+    font-size: 16px;
+}
+.main_heading {
+    /* background-color: grey;     */
+    /* background-color: rgb(0,0,0); */
+    /* background-color: #18f241; */
+    /* background-color: #333; */
+    background-color: #333333;
+}
+.main {
+    background-color: orange;
+}
+.main_footer {
+    background-color: green;
+}
+.main_header, 
+.main_footer {
+  color: red;
+}

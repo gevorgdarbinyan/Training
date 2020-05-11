@@ -23,7 +23,16 @@
        
         <div>5 + 5 =  <?php echo add(5, 5); ?></div>
         <div>5 * 5 =  <?php echo 5 * 5; ?></div>
+        <!-- <x-foo>FFF</x-foo> -->
+
+        <time-formatted datetime="2019-12-01"
+            year="numeric" month="long" day="numeric"
+            hour="numeric" minute="numeric" second="numeric"
+            time-zone-name="short"
+            ></time-formatted>
+
     </body>
     <script src="js/index.js"></script> <!-- We should include js file at the end because
      in that case DOM will be loaded and document.getElementById('myNameExpression') element will be available-->
+
 </html>
