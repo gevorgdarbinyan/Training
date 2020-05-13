@@ -1,0 +1,22 @@
+#wrapper{
+    padding: 10px;
+    border:1px solid #000;
+}
+.form-row{
+    margin-bottom: 10px;
+}
+/* .active label {
+    color: red;
+} */
+
+#wrapper .form-row:nth-child(3) label{
+    color: green;
+}
+
+/* #username{
+    font-size:10px;
+} */
+
+input[type="text"] {
+    font-size: 15px;
+}
