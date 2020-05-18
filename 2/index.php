@@ -95,3 +95,36 @@ x<sup>2</sup>
         </tr>
     </tfoot>
 </table>
+
+<style>
+
+    .my-list{
+        list-style-type:none;
+    }
+    .my-list-item {
+        display:inline;
+    }
+</style>
+
+<ul class="my-list">
+    <li class="my-list-item">
+      <a class="my-list-link" href="#">Գլխավոր</a>
+    </li>
+    <li class="my-list-item">
+      <a class="my-list-link" href="#">Link 2</a>
+    </li>
+    <li class="my-list-item">
+      <a class="my-list-link" href="#">Link 3</a>
+    </li>
+</ul>
+
+<div style="float:left;">A</div>
+<div style="float:left;">A1</div>
+<div style="float:left;">A2</div>
+<div>A3</div>
+<div style="clear:both;"></div>
+
+<div style="float:left;">B</div>
+<div style="float:left;">B1</div>
+<div style="float:left;">B2</div>
+<div>A3</div>
