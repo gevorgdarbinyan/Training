@@ -1,6 +1,7 @@
 <?php
 
 $number = rand(1,2016);
+echo $number;exit;
 if($number >= 10 && $number <= 99)
 {
 	$first = (int)($number / 10);

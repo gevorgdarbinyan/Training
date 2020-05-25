@@ -7,8 +7,8 @@
         <input type="submit" class="btn btn-primary" value="Ստուգել">
     </div>
 </form>
-
 <?php
+
 if(isset($_POST['year'])){
     $year = $_POST['year'];
     if($year % 4 == 0 || $year % 100 == 0 || $year % 400 == 0){

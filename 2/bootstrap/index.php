@@ -14,6 +14,12 @@
       <li class="nav-item">
         <a class="nav-link" href="index.php?page=leap">Նահանջ տարի</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.php?page=variables">Փոփոխականների օրինակներ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.php?page=images">Նկարներ</a>
+      </li>
     </ul>
   </div>
 </nav>
