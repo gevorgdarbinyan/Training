@@ -281,4 +281,22 @@ $page->getStatisticsCount();
 Page::getPageDescription();
 
 
+$user1 = new StdClass();
+$user1->name = 'Armen';
+$user1->surname = 'Armenyan';
+$user1->age = 22;
+
+echo "<pre>";print_r($user1);
+
+$user2 = $user1;
+
+$user2->surname = 'Kirakosyan';
+
+echo "<pre>";print_r($user1);
+
+
+
+
+
+
 
